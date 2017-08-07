@@ -7,11 +7,6 @@ var countStartNumber = 60;
 
 // Question set
 var questions = [{
-  question: "How many smoking-related fires occur in residential buildings every year in the U.S.?",
-  answers: ["3000", "5400", "7600", "6000"],
-  correctAnswer: "7600",
-  image: "assets/images/pichsmokingrelatedfires.png"
-}, {
   question: "Food service workers have a __% greater risk of lung cancer than the general population, ",
   answers: ["80", "30", "20", "50"],
   correctAnswer: "50",
@@ -22,25 +17,35 @@ var questions = [{
   correctAnswer: "6",
   image: "assets/images/pichrestaurantshighways.png"
 }, {
-  question: "Smoking-related fires are _ times more likely to result in death than fires that start from another source.",
-  answers: ["3", "10", "8", "4"],
-  correctAnswer: "8",
-  image: "assets/images/pichsmokingfiresource.png"
+  question: "Pollution levels in restaurants and bars that allow smoking is more than _ times 0higher than in non-smoking venues.",
+  answers: ["10", "12", "8", "5"],
+  correctAnswer: "10",
+  image: "assets/images/pichpollutionlevelsrestaurantsbars.png"
 }, {
-  question: "Smoke-free units require less turnover time due to fewer preparation and repainting needs.",
-  answers: ["True", "False"],
-  correctAnswer: "True",
-  image: "assets/images/pichsmokingfiresource.png"
-}, {
-  question: "A smoke-free restaurant can save nearly _ per 1,000 square feet each year.",
-  answers: ["$800", "$500", "$1000", "$300"],
-  correctAnswer: "$300",
-  image: "assets/images/pichsmokefreerestaurants.png"
+  question: "_ out of 5 Fulton County residents believe in the right to breathe clean air in restaurants and bars. .",
+  answers: ["2", "5", "1", "3"],
+  correctAnswer: "3",
+  image: "assets/images/pichrightcleanair.png"
 }, {
   question: "Cyanide is not a chemical in cigarettes.",
   answers: ["True", "False"],
   correctAnswer: "False",
-  image: "assets/images/pichsmokefreeunits.png"
+  image: "assets/images/pichsecondhandsmokead.png"
+}, {
+  question: "More than _% of adults in Georgia are non-smokers.",
+  answers: ["79%", "40%", "35%", "60%"],
+  correctAnswer: "79",
+  image: "assets/images/pichnonsmokerrate.png"
+}, {
+  question: "_% of Fulton County residents believe apartments should be smoke free.",
+  answers: ["90%", "55%", "72%", "80%"],
+  correctAnswer: "72",
+  image: "assets/images/pichaptssmokefree.png"
+}, {
+  question: "_ out of 5 Fulton County residents believe apartments must protect their residents against secondhand smoke.",
+  answers: ["3", "5", "2", "4"],
+  correctAnswer: "3",
+  image: "assets/images/pichsecondhandimg.png"
 }, {
   question: "What is the best method for quitting a smoking habit? ",
   answers: ["In-Person Counseling", "Georgia Quitline", "Cold Turkey", "All of the above"],
