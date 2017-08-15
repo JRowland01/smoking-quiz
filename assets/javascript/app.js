@@ -17,34 +17,41 @@ var questions = [{
   correctAnswer: "6",
   image: "assets/images/pichrestaurantshighways.png"
 }, {
-  question: "Pollution levels in restaurants and bars that allow smoking is more than _ times 0higher than in non-smoking venues.",
+  question: "Pollution levels in restaurants and bars that allow smoking is more than _ times higher than in non-smoking venues.",
   answers: ["10", "12", "8", "5"],
   correctAnswer: "10",
   image: "assets/images/pichpollutionlevelsrestaurantsbars.png"
 }, {
-  question: "_ out of 5 Fulton County residents believe in the right to breathe clean air in restaurants and bars. .",
+  question: "_ of 5 Fulton County residents believe in the right to breathe clean air in restaurants and bars.",
   answers: ["2", "5", "1", "3"],
   correctAnswer: "3",
-  image: "assets/images/pichrightcleanair.png"
+  image: "assets/images/pichcleanairbarsrestaurants.png"
 }, {
   question: "Cyanide is not a chemical in cigarettes.",
   answers: ["True", "False"],
   correctAnswer: "False",
   image: "assets/images/pichsecondhandsmokead.png"
 }, {
-  question: "More than _% of adults in Georgia are non-smokers.",
+  question: "More than _ of adults in Georgia are non-smokers.",
   answers: ["79%", "40%", "35%", "60%"],
-  correctAnswer: "79",
+  correctAnswer: "79%",
   image: "assets/images/pichnonsmokerrate.png"
 }, {
-  question: "_% of Fulton County residents believe apartments should be smoke free.",
+  question: "_ of Fulton County residents believe apartments should be smoke free.",
   answers: ["90%", "55%", "72%", "80%"],
-  correctAnswer: "72",
+  correctAnswer: "72%",
   image: "assets/images/pichaptssmokefree.png"
+
 }, {
+  question: "_ of Fulton county residents support smoke-free bars and restaurants.",
+  answers: ["45%", "87%", "100%", "62%"],
+  correctAnswer: "87%",
+  image: "assets/images/pichbarrestaurantsupport.png"
+}, {
+
   question: "_ out of 5 Fulton County residents believe apartments must protect their residents against secondhand smoke.",
   answers: ["3", "5", "2", "4"],
-  correctAnswer: "3",
+  correctAnswer: "4",
   image: "assets/images/pichsecondhandimg.png"
 }, {
   question: "What is the best method for quitting a smoking habit? ",
