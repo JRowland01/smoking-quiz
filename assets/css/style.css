@@ -86,7 +86,8 @@ button {
 }
 
 img {
-    height: 300px;
+    max-width: 512px;
+    max-height: 300px;
 }
 
 .smokelogo {

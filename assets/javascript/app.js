@@ -57,7 +57,7 @@ var questions = [{
   question: "Which one of these provides free counseling 24/7 to help smokers quit?",
   answers: ["PICH website", "GA DPH website", "GA Tobacco Quitline", " CDC Website"],
   correctAnswer: "GA Tobacco Quitline",
-  image: "assets/images/PICHQUITSMOKINGAD.png"
+  image: "assets/images/PICHQUITTERSWINBILLBOARD.png"
 }];
 
 // Variable to hold our setInterval
