@@ -9,6 +9,7 @@ body {
 
 @font-face {
     font-family: 'GothamSSm-Medium';
+
     src: url('../fonts/GothamSSm-Medium.eot');
   
     src: local('☺'), url('../fonts/GothamSSm-Medium.woff2') format('woff2'),
@@ -22,6 +23,7 @@ body {
     url('../fonts/GothamSSm-Medium.eot?#iefix') format('embedded-opentype');
   
     font-weight: normal;
+
     font-style: normal;
 }
 
@@ -45,17 +47,12 @@ body {
     font-weight: normal;
   
     font-style: normal;
-
 }
-
-
-
 
 body {
     font-family: 'GothamSSm-Medium',sans-serif;
     text-align: center;
     color: #4C92D0;
-    ;
 }
 
 #wrapper {
@@ -63,9 +60,12 @@ body {
     padding: 14px;
     background-color: #EAF7FD;
     width: 470px;
-    height: 650px;
     box-sizing: border-box;
     border-radius: 20px;
+}
+
+#sub-wrapper{
+    margin-bottom:25px;
 }
 
 #sub-wrapper h2 {
@@ -76,7 +76,7 @@ body {
 
 button {
     display: block;
-    width: 40%;
+    width: 50%;
     height: 20%;
     margin: 0 auto;
     border: none;
@@ -96,7 +96,7 @@ img {
 
 h1 {
     font-family: 'GothamSSm-Medium',sans-serif;
-    font-size: 2.5em;
+    font-size: 1.8em;
     font-weight: bold;
     color: #20B460;
     padding-top: 5.0%;
@@ -128,7 +128,7 @@ p {
     color: #4C92D0;
 }
 
-.intropage {
+.intropage p{
     font-family: 'GothamSSm-Light',sans-serif;
     margin-top: 25px;
     font-size: 1.0em;
@@ -139,7 +139,7 @@ p {
     margin-top: 15%;
     border: 2px solid #EAF7FD;
     background: #F8D612;
-    width: 30%;
+    width: 45%;
     border-radius: 20px;
     color: #4C92D0;
 }
@@ -151,6 +151,8 @@ p {
 #button {
     font-family: 'GothamSSm-Medium',sans-serif;
     color: #4C92D0;
+    padding:5px;
+    width:50%;
 }
 
 button:hover {
@@ -162,7 +164,7 @@ button:hover {
 #restart {
     font-family: 'GothamSSm-Medium',sans-serif;
     background: #F8D612;
-    width: 30%;
+    width: 50%;
     border-radius: 20px;
     color: #4C92D0;
 }
@@ -174,7 +176,7 @@ button:hover {
 #mainMenu {
     font-family: 'GothamSSm-Medium',sans-serif;
     background: #F8D612;
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
     color: #4C92D0;
 }

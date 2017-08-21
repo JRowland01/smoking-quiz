@@ -7,57 +7,57 @@ var countStartNumber = 60;
 
 // Question set
 var questions = [{
-  question: "Food service workers have a __% greater risk of lung cancer than the general population, ",
+  question: "Food service workers have a __% greater risk of lung cancer than the general population.",
   answers: ["80", "30", "20", "50"],
   correctAnswer: "50",
-  image: "assets/images/pichfoodserviceworkers.png"
+  image: "assets/images/PICHFOODSERVICEWORKERS.png"
 }, {
-  question: "Restaurants that allow smoking can have __ times the pollution of a busy highway?",
+  question: "Restaurants that allow smoking can have __ times the pollution of a busy highway.",
   answers: ["2", "6", "4", "7"],
   correctAnswer: "6",
-  image: "assets/images/pichrestaurantshighways.png"
+  image: "assets/images/PICHRESTAURANTSHIGHWAYS.png"
 }, {
   question: "Pollution levels in restaurants and bars that allow smoking is more than _ times higher than in non-smoking venues.",
   answers: ["10", "12", "8", "5"],
   correctAnswer: "10",
-  image: "assets/images/pichpollutionlevelsrestaurantsbars.png"
+  image: "assets/images/PICHPOLLUTIONLEVELSRESTAURANTSBARS.png"
 }, {
   question: "_ of 5 Fulton County residents believe in the right to breathe clean air in restaurants and bars.",
   answers: ["2", "5", "1", "3"],
   correctAnswer: "3",
-  image: "assets/images/pichcleanairbarsrestaurants.png"
+  image: "assets/images/PICHCLEANAIRBARSRESTAURANTS.png"
 }, {
   question: "Cyanide is not a chemical in cigarettes.",
   answers: ["True", "False"],
   correctAnswer: "False",
-  image: "assets/images/pichsecondhandsmokead.png"
+  image: "assets/images/PICHSECONDHANDSMOKEAD.png"
 }, {
   question: "More than _ of adults in Georgia are non-smokers.",
   answers: ["79%", "40%", "35%", "60%"],
   correctAnswer: "79%",
-  image: "assets/images/pichnonsmokerrate.png"
+  image: "assets/images/PICHNONSMOKERRATE.png"
 }, {
   question: "_ of Fulton County residents believe apartments should be smoke free.",
   answers: ["90%", "55%", "72%", "80%"],
   correctAnswer: "72%",
-  image: "assets/images/pichaptssmokefree.png"
+  image: "assets/images/PICHAPTSSMOKEFREE.png"
 
 }, {
   question: "_ of Fulton county residents support smoke-free bars and restaurants.",
   answers: ["45%", "87%", "100%", "62%"],
   correctAnswer: "87%",
-  image: "assets/images/pichbarrestaurantsupport.png"
+  image: "assets/images/PICHBARRESTAURANTSUPPORT.png"
 }, {
 
   question: "_ out of 5 Fulton County residents believe apartments must protect their residents against secondhand smoke.",
   answers: ["3", "5", "2", "4"],
   correctAnswer: "4",
-  image: "assets/images/pichsecondhandimg.png"
+  image: "assets/images/PICHSECONDHANDIMG.png"
 }, {
-  question: "What is the best method for quitting a smoking habit? ",
-  answers: ["In-Person Counseling", "Georgia Quitline", "Cold Turkey", "All of the above"],
-  correctAnswer: "All of the above",
-  image: "assets/images/pichalloftheabove.png"
+  question: "Which one of these provides free counseling 24/7 to help smokers quit?",
+  answers: ["PICH website", "GA DPH website", "GA Tobacco Quitline", " CDC Website"],
+  correctAnswer: "GA Tobacco Quitline",
+  image: "assets/images/PICHQUITSMOKINGAD.png"
 }];
 
 // Variable to hold our setInterval
