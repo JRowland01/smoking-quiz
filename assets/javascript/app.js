@@ -17,7 +17,7 @@ var questions = [{
   correctAnswer: "6",
   image: "assets/images/PICHRESTAURANTSHIGHWAYS.png"
 }, {
-  question: "Pollution levels in restaurants and bars that allow smoking is more than _ times higher than in non-smoking venues.",
+  question: "Pollution levels in restaurants and bars that allow smoking are more than _ times higher than in non-smoking venues.",
   answers: ["10", "12", "8", "5"],
   correctAnswer: "10",
   image: "assets/images/PICHPOLLUTIONLEVELSRESTAURANTSBARS.png"
